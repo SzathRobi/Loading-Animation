@@ -1,0 +1,78 @@
+.loadText{
+    color: white;
+    position: relative;
+    top: 25%;
+}
+
+.loadText{
+    color: $color1;
+}
+
+.loadText::before{
+    content: "Loading";
+    position: absolute;
+    color: $color3;
+    z-index: -1;
+    animation-name: glitchBefore;
+    animation-duration: 7000ms;
+}
+
+.loadText::after{
+    content: "Loading";
+    position: absolute;
+    left: 0;
+    color: $color4;
+    z-index: -2;
+    animation-name: glitchAfter;
+    animation-duration: 7000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glitchBefore{
+    0% {transform: translate(0);}
+    1% {transform: translate(3px, 5px);}
+    2% {transform: translate(3px, -3px);}
+    3% {transform: translate(-5px, 3px);}
+    4% {transform: translate(-3px, -3px);}
+    5% {transform: translate(0);}
+    100% {transform: translate(0);}
+}
+
+@keyframes glitchAfter{
+    0% {transform: translate(0);}
+    1% {transform: translate(-5px, 5px);}
+    2% {transform: translate(5px, 3px);}
+    3% {transform: translate(-3px, -3px);}
+    4% {transform: translate(3px, -6px);}
+    5% {transform: translate(0);}
+    100% {transform: translate(0);}
+}
+
+.dots{
+    width: 6px;
+    height: 6px;
+    background: $color1;
+    border-radius: 50%;
+    margin: 0 1%;
+    position: relative;
+    top: 26%;
+    animation-name: showDots;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    opacity: 0;
+}
+
+#dot2{
+    animation-delay: 0.5s;
+}
+
+#dot3{
+    animation-delay: 1s;
+}
+
+@keyframes showDots{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

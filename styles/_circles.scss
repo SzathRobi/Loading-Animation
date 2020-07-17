@@ -1,0 +1,205 @@
+.circle{
+    position: absolute;
+    border: 3px solid $color1;
+    border-radius: 50%;
+    transform: rotateX(70deg);
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow:2px 4px 5px $color2;
+}
+
+#circle1{
+    width: 5%;
+    height: 5%;
+    top: 47.5%;
+    animation-name: loading1;
+}
+
+#circle2{
+    width: 7%;
+    height: 7%;
+    top: 45%;
+    animation-name: loading2;
+    animation-delay: 50ms;
+}
+
+#circle3{
+    width: 9%;
+    height: 9%;
+    top: 42.5%;
+    animation-name: loading3;
+    animation-delay: 100ms;
+}
+
+#circle4{
+    width: 11%;
+    height: 11%;
+    top: 40%;
+    animation-name: loading4;
+    animation-delay: 150ms;
+}
+
+#circle5{
+    width: 13%;
+    height: 13%;
+    top: 37.5%;
+    animation-name: loading5;
+    animation-delay: 200ms;
+}
+
+#circle6{
+    width: 15%;
+    height: 15%;
+    top: 35%;
+    animation-name: loading6;
+    animation-delay: 250ms;
+}
+
+#circle7{
+    width: 17%;
+    height: 17%;
+    top: 32.5%;
+    animation-name: loading7;
+    animation-delay: 300ms;
+}
+
+#circle8{
+    width: 19%;
+    height: 19%;
+    top: 30%;
+    animation-name: loading8;
+    animation-delay: 350ms;
+}
+
+#circle9{
+    width: 21%;
+    height: 21%;
+    top: 27.5%;
+    animation-name: loading9;
+    animation-delay: 400ms;
+}
+
+#circle10{
+    width: 23%;
+    height: 23%;
+    top: 25%;
+    animation-name: loading10;
+    animation-delay: 450ms;
+}
+
+#circle11{
+    width: 25%;
+    height: 25%;
+    top: 22.5%;
+    animation-name: loading11;
+    animation-delay: 500ms;
+}
+
+#circle12{
+    width: 27%;
+    height: 27%;
+    top: 20%;
+    animation-name: loading12;
+    animation-delay: 550ms;
+}
+
+#circle13{
+    width: 29%;
+    height: 29%;
+    top: 17.5%;
+    animation-name: loading13;
+    animation-delay: 600ms;
+}
+
+@keyframes loading1{
+    0%  {top: 47.5%;}
+    33% {top: 20%;}
+    66% {top: 55%;}
+    100% {top: 47.5%;}
+}
+
+@keyframes loading2{
+    0%  {top: 45%;}
+    33% {top: 17.5%;}
+    66% {top: 57.5%;}
+    100% {top: 45%;}
+}
+
+@keyframes loading3{
+    0%  {top: 42.5%;}
+    33% {top: 15%;}
+    66% {top: 60%;}
+    100% {top: 42.5%;}
+}
+
+@keyframes loading4{
+    0%  {top: 40%;}
+    33% {top: 12.5%;}
+    66% {top: 62.5%;}
+    100% {top: 40%;}
+}
+
+@keyframes loading5{
+    0%  {top: 37.5%;}
+    33% {top: 10%;}
+    66% {top: 65%;}
+    100% {top: 37.5%;}
+}
+
+@keyframes loading6{
+    0%  {top: 35%;}
+    33% {top: 7.5%;}
+    66% {top: 67.5%;}
+    100% {top: 35%;}
+}
+
+@keyframes loading7{
+    0%  {top: 32.5%;}
+    33% {top: 5%;}
+    66% {top: 70%;}
+    100% {top: 32.5%;}
+}
+
+@keyframes loading8{
+    0%  {top: 30%;}
+    33% {top: 2.5%;}
+    66% {top: 72.5%;}
+    100% {top: 30%;}
+}
+
+@keyframes loading9{
+    0%  {top: 27.5%;}
+    33% {top: 0;}
+    66% {top: 75%;}
+    100% {top: 27.5%;}
+}
+
+@keyframes loading10{
+    0%  {top: 25%;}
+    33% {top: -2.5%;}
+    66% {top: 77.5%;}
+    100% {top: 25%;}
+}
+
+@keyframes loading11{
+    0%  {top: 22.5%;}
+    33% {top: -5%;}
+    66% {top: 80%;}
+    100% {top: 22.5%;}
+}
+
+@keyframes loading12{
+    0%  {top: 20%;}
+    33% {top: -7.5%;}
+    66% {top: 82.5%;}
+    100% {top: 20%;}
+}
+
+@keyframes loading13{
+    0%  {top: 17.5%;}
+    33% {top: -10%;}
+    66% {top: 85%;}
+    100% {top: 17.5%;}
+}
